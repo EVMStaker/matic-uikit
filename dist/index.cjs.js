@@ -1764,7 +1764,7 @@ var Modal = function (_a) {
             React__default['default'].createElement(ModalTitle, null,
                 onBack && (React__default['default'].createElement(IconButton, { variant: "text", onClick: onBack, "area-label": "go back", mr: "8px" },
                     React__default['default'].createElement(Icon$5, { color: "primary" }))),
-                React__default['default'].createElement(Heading, null, title)),
+                React__default['default'].createElement(Heading, { style: { color: "#000000" } }, title)),
             !hideCloseButton && (React__default['default'].createElement(IconButton, { variant: "text", onClick: onDismiss, "aria-label": "Close the dialog" },
                 React__default['default'].createElement(Icon$k, { color: "primary" })))),
         React__default['default'].createElement(Flex, { flexDirection: "column", p: bodyPadding }, children)));
@@ -2039,7 +2039,7 @@ var templateObject_1$B, templateObject_2$a;
 var AccountModal = function (_a) {
     var account = _a.account, logout = _a.logout, _b = _a.onDismiss, onDismiss = _b === void 0 ? function () { return null; } : _b;
     return (React__default['default'].createElement(Modal, { title: "Your wallet", onDismiss: onDismiss },
-        React__default['default'].createElement(Text, { fontSize: "20px", bold: true, style: { whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", marginBottom: "8px" } }, account),
+        React__default['default'].createElement(Text, { fontSize: "20px", bold: true, style: { whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", marginBottom: "8px", color: "#000000" } }, account),
         React__default['default'].createElement(Flex, { mb: "32px" },
             React__default['default'].createElement(LinkExternal, { small: true, href: "https://andromeda-explorer.metis.io//address/" + account, mr: "16px" }, "View on Metis Explorer"),
             React__default['default'].createElement(CopyToClipboard, { toCopy: account }, "Copy Address")),
