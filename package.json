@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/metisstaker/metis-uikit",
+  "repository": "https://github.com/EVMStaker/matic-uikit",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
